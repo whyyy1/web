@@ -1,0 +1,96 @@
+body {
+    font-weight: normal;
+    background-color: rgb(196, 196, 196);
+}
+
+.nav {
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center ;
+    width: 100%;
+    padding: 1rem,6.5rem;
+    background: transparent;
+    transition: all 0.5s ease; 
+}
+
+ul {
+    list-style: none;
+}
+
+.navbar-toggler{
+     
+    display:none;
+    border: none;
+    outline: none;
+
+}
+.navbar-toggler .toggler-icon{
+    width: 27px;
+    height: 3px;
+    background-color: #121212;
+    margin:5px 0;
+    position: relative; 
+    display:block;
+    transition: all 0.3s ease-out 0s;
+     
+
+}
+
+.nav .menu-bar .menu-items {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+.nav .menu-bar .menu-items li{
+    margin:0 15px;
+}
+.nav .menu-bar .menu-items li a {
+    color: rgb(58, 35, 58);
+    font-size: 10px;
+    font-weight: 600;
+}
+.nav .menu-bar .menu-items li a:hover {
+    color: rgb(16, 122, 105);
+    font-size: 45px;
+    font-weight: 600;
+}
+.nav .navbar-social {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+.nav .navbar-social span{
+    font-size: 15px;
+    font-weight: 600;
+    padding-right: 10px;
+    color: rgb(58, 35, 58);
+
+}
+.nav .navbar-social ul{
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+.nav .navbar-social ul li{
+    margin: 0 5px;
+}
+.nav .navbar-social ul li a{
+    color:rgb(16, 122, 105) ;
+    font-size: 22px;
+}
+.titleSpace{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
